@@ -71,7 +71,7 @@
 
 
 
-
+                    <asp:ContentPlaceHolder ID="cntPlcBody" runat="server"></asp:ContentPlaceHolder>
 
 
 
