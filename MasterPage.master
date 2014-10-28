@@ -5,7 +5,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <meta charset="utf-8">
-    <title>Bootstrap Admin</title>
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
@@ -54,44 +53,38 @@
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
-    <asp:ContentPlaceHolder id="head" runat="server">
+    <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body>
     <form id="form1" runat="server">
-    <div>
-        <div class="header">
-            <asp:ContentPlaceHolder id="cntPlcPageName" runat="server"> </asp:ContentPlaceHolder>
-        </div>
-
-        <ul class="breadcrumb">
-            <li><a href="index.html">Home</a> <span class="divider">/</span></li>
-            <asp:ContentPlaceHolder id="cntPlcBreadCrumbs" runat="server"> </asp:ContentPlaceHolder>
-        </ul>
-
-        <div class="container-fluid">
-            <div class="row-fluid">
-
-                
-
-                
+        <div>
+            <div class="header">
+                <asp:ContentPlaceHolder ID="cntPlcPageName" runat="server"></asp:ContentPlaceHolder>
+            </div>
+            <ul class="breadcrumb">
+                <li><a href="index.html">Home</a> <span class="divider">/</span></li>
+                <asp:ContentPlaceHolder ID="cntPlcBreadCrumbs" runat="server"></asp:ContentPlaceHolder>
+            </ul>
+            <div class="container-fluid">
+                <div class="row-fluid">
 
 
 
-                <footer>
-                    <hr>
 
-                    <!-- Purchase a site license to remove this link from the footer: http://www.portnine.com/bootstrap-themes -->
-                    <p class="pull-right">A <a href="http://www.portnine.com/bootstrap-themes" target="_blank">Free Bootstrap Theme</a> by <a href="http://www.portnine.com" target="_blank">Portnine</a></p>
 
-                    <p>&copy; 2012 <a href="http://www.portnine.com" target="_blank">Portnine</a></p>
-                </footer>
 
+
+                    <footer>
+                        <hr>
+                        <!-- Purchase a site license to remove this link from the footer: http://www.portnine.com/bootstrap-themes -->
+                        <p class="pull-right">Job Fair System</p>
+                        <p>&copy; 2012 <a href="http://www.virajchitnis.com" target="_blank">Viraj Chitnis</a></p>
+                    </footer>
+                </div>
             </div>
         </div>
-    </div>
     </form>
-
     <script src="lib/bootstrap/js/bootstrap.js"></script>
     <script type="text/javascript">
         $("[rel=tooltip]").tooltip();
@@ -99,6 +92,5 @@
             $('.demo-cancel-click').click(function () { return false; });
         });
     </script>
-
 </body>
 </html>
