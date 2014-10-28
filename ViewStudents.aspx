@@ -12,9 +12,44 @@
 </asp:Content>
 
 <asp:Content ID="StudentsTable" ContentPlaceHolderID="cntPlcBody" runat="Server">
+    <div class="block">
+        <a href="#page-stats" class="block-heading" data-toggle="collapse">Latest Stats</a>
+        <div id="page-stats" class="block-body collapse in">
+            <div class="stat-widget-container">
+                <div class="stat-widget">
+                    <div class="stat-button">
+                        <p class="title">412</p>
+                        <p class="detail">Students</p>
+                    </div>
+                </div>
+
+                <div class="stat-widget">
+                    <div class="stat-button">
+                        <p class="title">52</p>
+                        <p class="detail">Employers</p>
+                    </div>
+                </div>
+
+                <div class="stat-widget">
+                    <div class="stat-button">
+                        <p class="title">9</p>
+                        <p class="detail">Days remaining</p>
+                    </div>
+                </div>
+
+                <div class="stat-widget">
+                    <div class="stat-button">
+                        <p class="title">8</p>
+                        <p class="detail">Majors</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
     <div class="row-fluid">
         <div class="block">
-            <a href="#tablewidget" class="block-heading" data-toggle="collapse">Students<span class="label label-warning">10</span></a>
+            <a href="#tablewidget" class="block-heading" data-toggle="collapse">Students</a>
             <div id="tablewidget" class="block-body collapse in">
                 <table class="table">
                     <thead>

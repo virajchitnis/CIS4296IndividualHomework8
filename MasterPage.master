@@ -68,18 +68,11 @@
             </ul>
             <div class="container-fluid">
                 <div class="row-fluid">
-
-
-
                     <asp:ContentPlaceHolder ID="cntPlcBody" runat="server"></asp:ContentPlaceHolder>
-
-
-
                     <footer>
-                        <hr>
-                        <!-- Purchase a site license to remove this link from the footer: http://www.portnine.com/bootstrap-themes -->
+                        <hr />
                         <p class="pull-right">Job Fair System</p>
-                        <p>&copy; 2012 <a href="http://www.virajchitnis.com" target="_blank">Viraj Chitnis</a></p>
+                        <p>&copy; 2014 <a href="http://www.virajchitnis.com" target="_blank">Viraj Chitnis</a>. All Rights Reserved.</p>
                     </footer>
                 </div>
             </div>
